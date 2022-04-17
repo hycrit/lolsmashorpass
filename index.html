@@ -11,11 +11,29 @@
         body {
             font-family: Verdana, sans-serif;
             margin: 0;
+        }
+
+        .bg-image {
+            /* The image used */
             background-image: url("https://notagamer.net/wp-content/uploads/2020/03/Untitled-3-2.jpg");
+
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+           
         }
 
         .mySlides {
             display: none
+        }
+
+        div {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
 
         img {
@@ -98,7 +116,7 @@
         /* Fading animation */
         .fade {
             animation-name: fade;
-            animation-duration: 1.5s;
+            animation-duration: 1s;
         }
 
         @keyframes fade {
@@ -124,25 +142,51 @@
 </head>
 
 <body>
-
+    <div class="bg-image"></div>
     <div class="slideshow-container">
 
         <div class="mySlides fade">
-            <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/ce/Skin_Splash_Classic_Aatrox.jpg/" style="width:100%">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg" style="width:100%">
         </div>
-
         <div class="mySlides fade">
-            <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/c/c0/Skin_Splash_Classic_Ahri.jpg" style="width:100%">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg" style="width:100%">
         </div>
-
         <div class="mySlides fade">
-            <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/7/78/Skin_Splash_Classic_Akali.jpg" style="width:100%">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg" style="width:100%">
         </div>
-
         <div class="mySlides fade">
-            <img src="https://static.wikia.nocookie.net/leagueoflegends/images/3/3b/Akshan_OriginalSkin.jpg" style="width:100%">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akshan_0.jpg" style="width:100%">
         </div>
-
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Alistar_0.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg" style="width:100%">
+        </div>
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
 
